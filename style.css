@@ -36,7 +36,6 @@ main img {
   margin-bottom: 20px;
 }
 
-
 /* ---  Groups & Items --- */
 
 .group {
@@ -149,23 +148,23 @@ footer p {
 
 @media all and (min-width: 768px) {
   header {
-      display: flex;
-      justify-content: space-between;
-      padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
   }
 
   header h1 {
-      font-size: 42px;
-      margin: 14px 0;
-      padding-top: 6px;
+    font-size: 42px;
+    margin: 14px 0;
+    padding-top: 6px;
   }
 
   header nav {
-      margin-top: 14px;
+    margin-top: 14px;
   }
 
   header nav ul li a:hover {
-      color: #bdbdbd;
+    color: #bdbdbd;
   }
 
   form fieldset {
@@ -191,44 +190,32 @@ footer p {
     max-width: 100px;
   }
 
-section.alternate-background {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  section.about-header {
+  }
 
-section.alternate-background img {
-  width: 48%;
-  height: 100px;
-  margin-bottom: 2%;
-}
+  section div.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 32%;
+    height: 200px;
+  }
 
-section.alternate-background p {
-  justify-content: space-between;
-  align-items: center;
-}
+  section div.ideas-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-section.alternate-background img :last-child {
-  width: 100%;
-}
+  section div.ideas-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-section.ideas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-section.ideas img {
-  width: 48%;
-  margin-bottom: 2%;
-}
-
-section.ideas h3 {
-  justify-content: space-between;
-  align-items: center;
-}
-
-section.ideas img :last-child {
-  width: 100%;
+  section div.hosting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

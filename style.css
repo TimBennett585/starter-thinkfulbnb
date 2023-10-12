@@ -99,8 +99,7 @@ form {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
-  align-items: center;
+  justify-content: space-between;
   margin: 0;
 }
 
@@ -112,6 +111,17 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+}
+
+form fieldset {
+  margin: 0;
+  border: 0;
+}
+
+form fieldset div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 form button {
@@ -137,7 +147,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 768px) {
   header {
       display: flex;
       justify-content: space-between;
@@ -158,9 +168,16 @@ footer p {
       color: #bdbdbd;
   }
 
-  form {
+  form fieldset {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  form fieldset div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   main img {

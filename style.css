@@ -203,6 +203,11 @@ section.alternate-background img {
   margin-bottom: 2%;
 }
 
+section.alternate-background p {
+  justify-content: space-between;
+  align-items: center;
+}
+
 section.alternate-background img :last-child {
   width: 100%;
 }
@@ -217,6 +222,11 @@ section.ideas {
 section.ideas img {
   width: 48%;
   margin-bottom: 2%;
+}
+
+section.ideas h3 {
+  justify-content: space-between;
+  align-items: center;
 }
 
 section.ideas img :last-child {

@@ -172,12 +172,23 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  form fieldset div input {
+    max-width: 130px;
+  }
+
+  form fieldset div select {
+    max-width: 130px;
   }
 
   form fieldset div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100px;
   }
 
   main img {

@@ -191,10 +191,34 @@ footer p {
     max-width: 100px;
   }
 
-  main img {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    align-items: flex-start;
-  }
+section.alternate-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section.alternate-background img {
+  width: 48%;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+section.alternate-background img :last-child {
+  width: 100%;
+}
+
+section.ideas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section.ideas img {
+  width: 48%;
+  margin-bottom: 2%;
+}
+
+section.ideas img :last-child {
+  width: 100%;
 }

@@ -172,6 +172,7 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
   }
 
   form fieldset div input {
@@ -190,32 +191,56 @@ footer p {
     max-width: 100px;
   }
 
-  section.about-header {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  section div.about-content {
+  .about-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 32%;
-    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
   }
 
-  section div.ideas-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  .about-container div {
+    padding: 10px;
   }
 
-  section div.ideas-2 {
+  .ideas-gallery {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
 
-  section div.hosting {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  .idea {
+    width: calc(50% - 10px);
+    text-align: center;
+    padding: 10px;
   }
+
+  .idea h3 {
+    margin: 10px;
+  }
+
+  .hosting {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hosting-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .hosting-text {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+  }
+
 }

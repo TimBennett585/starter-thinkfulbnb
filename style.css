@@ -27,7 +27,7 @@ section {
 
 section.alternate-background {
   background-color: #00a699;
-  color: #fff;
+  /* color: #fff; */
 }
 
 main img {
@@ -196,6 +196,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: #fff;
   }
 
   .about-container {
@@ -207,7 +208,9 @@ footer p {
   }
 
   .about-container div {
+    flex: 1;
     padding: 10px;
+    color: #fff;
   }
 
   .ideas-gallery {
@@ -218,8 +221,7 @@ footer p {
   }
 
   .idea {
-    width: calc(50% - 10px);
-    text-align: center;
+    width: 46%;
     padding: 10px;
   }
 
@@ -229,16 +231,22 @@ footer p {
 
   .hosting {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    color: #fff;
   }
 
   .hosting-container {
     display: flex;
     align-items: center;
+    padding: 20px;
+  }
+
+  .hosting img {
+    width: 50%;
   }
 
   .hosting-text {
-    text-align: center;
+    text-align: left;
     flex: 1;
     padding: 20px;
   }

@@ -216,8 +216,7 @@ footer p {
   .ideas-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
   }
 
   .idea {
